@@ -18,13 +18,13 @@ Cependant, on a apporte divers modifications au jeu originale telles que :
 
 #####
 On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu des echecs. Les modifications apportes sont les suivantes :
-    - Chaque piece est differente :
-          - Le "Citoyen" est le pion des echecs qui peut se deplacer de deux cases dans une direction au premier tour puis se deplace d'une case, peut "manger" ou capturer une autre piece en diagonale. Se transforme en 
-          - L' "Ouvrier" est le chevalier des echecs qui se deplace en L (deux cases dans une direction, puis une case dans une autre) et peut capturer des pieces de cette facon
-          - Le "Soldat" est la tour des echecs qui se deplace d'autant de cases qu'il ne veut horizontalement et verticalement uniquement et peut capturer des pieces de cette facon. Quand cette piece est capturee, elle laissera un "cadavre" sur cette case, bloquant la case et pourra se faire reanimer par un des Ministres, disparaitra apres (jsp cb de tours, on peut pas faire ca etre infinie) 
-          - Le "Pirate" est le fou des echecs qui se deplace d'autant de cases qu'il ne veut diagonalement uniquement et peut capturer des pieces de cette facon. Quand cette piece est capturee, elle laissera un "cadavre" sur cette case, bloquant la case et pourra se faire reanimer par un des Ministres, disparaitra apres (jsp cb de tours, on peut pas faire ca etre infinie) 
-          - Le "Ministre" est la reine des echecs qui peut se deplacer d'autant de case qu'il ne veut en diagonale, horizontale, verticale et peut capturer des pieces de cette facon
-          - Le "President" est le roi des echecs qui peut se deplacer d'une case dans n'importe quelle direction et peut capturer des pieces de cette facon, lorsque le Roi d'une equipe meurt celle-ci est elimine
+  - Chaque piece est differente :
+    - Le "Citoyen" est le pion des echecs qui peut se deplacer de deux cases dans une direction au premier tour puis se deplace d'une case, peut "manger" ou capturer une autre piece en diagonale. Se transforme en 
+    - L' "Ouvrier" est le chevalier des echecs qui se deplace en L (deux cases dans une direction, puis une case dans une autre) et peut capturer des pieces de cette facon
+    - Le "Soldat" est la tour des echecs qui se deplace d'autant de cases qu'il ne veut horizontalement et verticalement uniquement et peut capturer des pieces de cette facon. Quand cette piece est capturee, elle laissera un "cadavre" sur cette case, bloquant la case et pourra se faire reanimer par un des Ministres, disparaitra apres (jsp cb de tours, on peut pas faire ca etre infinie) 
+    - Le "Pirate" est le fou des echecs qui se deplace d'autant de cases qu'il ne veut diagonalement uniquement et peut capturer des pieces de cette facon. Quand cette piece est capturee, elle laissera un "cadavre" sur cette case, bloquant la case et pourra se faire reanimer par un des Ministres, disparaitra apres (jsp cb de tours, on peut pas faire ca etre infinie) 
+    - Le "Ministre" est la reine des echecs qui peut se deplacer d'autant de case qu'il ne veut en diagonale, horizontale, verticale et peut capturer des pieces de cette facon
+    - Le "President" est le roi des echecs qui peut se deplacer d'une case dans n'importe quelle direction et peut capturer des pieces de cette facon, lorsque le Roi d'une equipe meurt celle-ci est elimine
 
 ####**Les capacites**
   - Le Citoyen : ne possede pas de capacites, se transforme en Ouvrier suite a la capture d'un Ministre
