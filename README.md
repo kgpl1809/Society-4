@@ -10,12 +10,13 @@ Read this document in .[english]
 
 ### Les echecs mais un peu different...
 
-On s'est inspire de la hierarchie de la societe moderne de nos jours pour modifier et changer les pieces presentes aux echecs.
+####On s'est inspire de la hierarchie de la societe moderne de nos jours pour modifier et changer les pieces presentes aux echecs.
 Cependant, on a apporte divers modifications au jeu originale telles que :
   - Society^4 est jouee avec 4 joueurs au lieu de 2
   - Tout les pions possedent des capacites sauf le citoyen etant l'equivalent du pion, ces capacites sont uniques a la categorie du pion
   - Les pions peuventse moprher au niveau superieure dans la hierarchie si et seulement si ce dernier effectue une capture du Ministre etant la Reine
 
+#####
 On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu des echecs. Les modifications apportes sont les suivantes :
     - Chaque piece est differente :
           - Le "Citoyen" est le pion des echecs qui peut se deplacer de deux cases dans une direction au premier tour puis se deplace d'une case, peut "manger" ou capturer une autre piece en diagonale. Se transforme en 
@@ -25,7 +26,7 @@ On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu de
           - Le "Ministre" est la reine des echecs qui peut se deplacer d'autant de case qu'il ne veut en diagonale, horizontale, verticale et peut capturer des pieces de cette facon
           - Le "President" est le roi des echecs qui peut se deplacer d'une case dans n'importe quelle direction et peut capturer des pieces de cette facon, lorsque le Roi d'une equipe meurt celle-ci est elimine
 
-**Les capacites**
+####**Les capacites**
   - Le Citoyen : ne possede pas de capacites, se transforme en Ouvrier suite a la capture d'un Ministre
   - L'Ouvrier : peut bloquer une case pour 1 tour, se transforme en Soldat suite a la capture d'un Ministre
   - Le Soldat : peut poser une mine a proximite qui elimine un pion qui atterit dessus, se transforme en Pirate suite a la capture d'un Ministre
