@@ -29,7 +29,7 @@ On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu de
 
 
 
-#### _Les capacites_
+#### _Les capacites_ (chaque utilisation de capacite consommera le tour du joueur)
   - Le Citoyen : ne possede pas de capacites, se transforme en Ouvrier suite a la capture d'un Ministre
   - L'Ouvrier : peut bloquer une case pour 1 tour, se transforme en Soldat suite a la capture d'un Ministre
   - Le Soldat : peut poser une mine a proximite qui elimine un pion qui atterit dessus, se transforme en Pirate suite a la capture d'un Ministre
@@ -39,4 +39,4 @@ On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu de
       - Ministre 2 : pose une prison sur une piece choisi qui dire 2 tours, tue la piece prise si elle bouge --> (amelioration de la capacite) la prison dure 3 tours au lieu de 2 tours
       - Ministre 3 : a la possibilite de reanimer un cadavre laisse par un Pirate ou un Soldat en Ouvrier --> (amelioration de la capacite) reanime les Soldats en Soldats et les Pirates en Pirates
       - Ministre 4 : pose une bouclier qui protege la piece choisi (allie, pas le President) qui disparait quand la piece bouge 1 fois--> (amelioration de la capacite) le bouclier disparaitra apres que la piece bouge 2 fois
-    
+  - Le President : peut echanger de positions avec un *Soldat* dans un rayon de 3 cases autour de lui --> (gain d'une capacite) peut envoyer une bombe sur une piece de son choix (sauf les autres Presidents) qui eliminera la piece.
