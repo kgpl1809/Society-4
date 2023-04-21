@@ -29,7 +29,7 @@ On a utiliser le module Pyxel sur le language Python pour faire imiter le jeu de
 
 
 
-###**Les capacites**
+#### _Les capacites_
   - Le Citoyen : ne possede pas de capacites, se transforme en Ouvrier suite a la capture d'un Ministre
   - L'Ouvrier : peut bloquer une case pour 1 tour, se transforme en Soldat suite a la capture d'un Ministre
   - Le Soldat : peut poser une mine a proximite qui elimine un pion qui atterit dessus, se transforme en Pirate suite a la capture d'un Ministre
