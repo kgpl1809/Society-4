@@ -14,8 +14,16 @@ On s'est inspire de la hierarchie de la societe moderne de nos jours pour modifi
 Cependant, on a apporte divers modifications au jeu originale telles que :
   - Society^4 est jouee avec 4 joueurs au lieu de 2
   - Tout les pions possedent des capacites sauf le citoyen etant l'equivalent du pion, ces capacites sont uniques a la categorie du pion
-  - Les pions peuventse moprher au niveau superieure dans la hierarchie si et seulement si ce dernier effectue une capture du Ministre etant la Reine
+  - Les pions peuventse morpher au niveau superieure dans la hierarchie si et seulement si ce dernier effectue une capture du Ministre etant la Reine
 
+### Python et Pyxel
 
+(assim remplie)
 
+### Affichage et Dessins sur Pyxel
 
+(sania remplie)
+
+### Creation du Menu et Easter Egg
+
+(raees emplie)
