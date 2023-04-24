@@ -12,9 +12,10 @@ Read this document in .[english]
 
 On s'est inspire de la societe moderne de nos jours pour modifier et changer les pieces presentes aux echecs.
 Cependant, on a apporte divers modifications au jeu originale telles que :
-  - Society^4 est jouee avec 4 joueurs au lieu de 2
+  - Society^4 est jouee avec 4 joueurs 
   - Toutes les pieces possedent des capacites sauf le citoyen etant l'equivalent du pion au chess, ces capacites sont differentes en fonction des pieces
-  - Les pieces peuvent se morpher au niveau superieure dans la hierarchie si et seulement si ce dernier effectue une capture du Ministre etant la Reine
+  - Les pieces peuvent se morpher au niveau superieure dans la hierarchie si et seulement si ce dernier effectue une capture du Ministre
+  - Le jeu peut etre joue qu'en local
 
 ### Python et Pyxel
 
