@@ -38,7 +38,9 @@ Cependant, on a apporté divers modifications au jeu originale telles que :
 
 ### Création du Menu et Easter Egg
 
-(raees emplie)
+  - Menu interractif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne
+  - Les Easter Egg peuvent etre acceder afin de  jouer a des mini-jeux pour rendre le menu plus vivant 
+
 
 ### Installation
 ![Screenshot_7](https://user-images.githubusercontent.com/131470894/234654262-fad628ea-0ebc-4b06-b267-bbd3fad3b15a.png)
