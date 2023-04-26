@@ -30,7 +30,7 @@ Cependant, on a apporté divers modifications au jeu originale telles que :
 
 ### Python et Pyxel
 
-(assim remplie)
+Le module pyxel a ete utilise pour afficher toutes les pieces et icones. Le code est donc divise en deux grandes parties, la partie avec tout les calcules et la partie graphique avec tout l'affichage. L'utilisation des dictionaires est aussi omnipresent a travers le code pour pouvoir attribuer a chaque objet des parametres.
 
 ### Affichage et Dessins sur Pyxel
 
