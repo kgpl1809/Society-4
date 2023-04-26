@@ -41,7 +41,11 @@ Cependant, on a apporte divers modifications au jeu originale telles que :
 (raees emplie)
 
 ### Installation
+![Screenshot_7](https://user-images.githubusercontent.com/131470894/234654262-fad628ea-0ebc-4b06-b267-bbd3fad3b15a.png)
 
+
+
+Quant a l'installation du module random, il suffit de remplacer dans la commande ci-dessus : "pyxel" par "random"
 
 ### Utilisation 
 
