@@ -36,7 +36,7 @@ Cependant, on a apporté divers modifications au jeu originale telles que :
 
 (sania remplie)
 
-### Création du Menu et Easter Egg
+### Menu et Easter Egg
 
   - Menu interractif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne
   - Les Easter Egg peuvent etre acceder afin de  jouer a des mini-jeux pour rendre le menu plus vivant 
