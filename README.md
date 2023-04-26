@@ -2,7 +2,7 @@
 
 Read this document in .[english]
 
-**Un jeu similaire au "echecs" avec quelques modifications fait avec pyxel !**
+**Un jeu similaire au "échecs" avec quelques modifications faites avec pyxel !**
 
 ![image](https://user-images.githubusercontent.com/131470894/234386560-98fbb934-0568-4f3f-88a9-e1a2158ae222.png)
 
@@ -13,20 +13,20 @@ https://user-images.githubusercontent.com/131470894/234392432-969cdbd2-0002-4b1d
 
 
 
-## Caracteristiques
+## Caractéristiques
 
-### les echecs mais à notre manière...
+### les échecs mais à notre manière...
 
-On s'est inspire de la societe moderne de nos jours pour modifier et changer les pieces presentes aux echecs.
-Cependant, on a apporte divers modifications au jeu originale telles que :
-  - Society^4 est jouee avec 4 joueurs 
-  - Toutes les pieces possedent des capacites sauf le citoyen, ces capacites sont differentes en fonction des pieces
-  - Les pieces peuvent se morpher au niveau superieure dans la hierarchie
-  - Le plateau est un plateau identique aux echecs, mais avec des demis plateau d'echec ajoute sur chaque cote, ce qui forme sur sorte de croix
+On s'est inspiré de la société moderne de nos jours pour modifier et changer les pièces présentés aux échecs.
+Cependant, on a apporté divers modifications au jeu originale telles que :
+  - Society^4 est jouée avec 4 joueurs 
+  - Toutes les pièces possèdent des capacités sauf le citoyen, ces capacités sont différentes en fonction des pièces
+  - Les pièces peuvent se morpher au niveau supérieure dans la hiérarchie
+  - Le plateau est un plateau identique aux echecs, mais avec des demis plateau d'échec ajoute sur chaque côté, ce qui forme sur sorte de croix
   
   
 #### Menu
-  - Quelques secrets caches dans le menu, a vous de les trouver !
+  - Quelques secrets cachés dans le menu, à vous de les trouver !
 
 ### Python et Pyxel
 
@@ -36,7 +36,7 @@ Cependant, on a apporte divers modifications au jeu originale telles que :
 
 (sania remplie)
 
-### Creation du Menu et Easter Egg
+### Création du Menu et Easter Egg
 
 (raees emplie)
 
@@ -45,8 +45,8 @@ Cependant, on a apporte divers modifications au jeu originale telles que :
 
 
 
-Quant a l'installation du module random, il suffit de remplacer dans la commande ci-dessus : "pyxel" par "random"
+Quant à l'installation du module random, il suffit de remplacer dans la commande ci-dessus : "pyxel" par "random"
 
 ### Utilisation 
 
-On a rendu l'interface d'utilisateur assez simple a naviguer afin de faciliter l'accessibilite a notre jeu. Il n y a donc pas de commandes additionels a entrer lorsque le jeu est lance. Cependant, si il arrive a notre jeu d'arreter de fonctionner, veuillez rafrachir le page sur laquelle vous etes, ou de relancer le code dependant de comment vous avez lancer le code.
+On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancer le code.
