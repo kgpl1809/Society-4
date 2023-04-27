@@ -30,7 +30,8 @@ Cependant, on a apporté divers modifications au jeu originale telles que :
 
 ### Python et Pyxel
 
-Le module pyxel a ete utilise pour afficher toutes les pieces et icones. Le code est donc divise en deux grandes parties, la partie avec tout les calcules et la partie graphique avec tout l'affichage. L'utilisation des dictionaires est aussi omnipresent a travers le code pour pouvoir attribuer a chaque objet des parametres.
+Le module pyxel a ete utilise pour afficher toutes les pieces et icones. Le code est donc divise en deux grandes parties, la partie avec tout les calcules et la partie graphique avec tout l'affichage. L'utilisation des dictionaires est aussi omnipresent a travers le code pour pouvoir attribuer a chaque objet des parametres. 
+Pyxel etant un module utilise durant toute l'annee de NSI pour nous entrainer a la nuit du code. Ainsi ce projet nous a aussi permit de nous prepaper pour la Nuit Du Code. 
 
 ### Affichage et Dessins sur Pyxel
 
