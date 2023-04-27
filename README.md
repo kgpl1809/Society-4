@@ -4,16 +4,16 @@ Read this document in .[english]
 
 **Un jeu similaire au "échecs" avec quelques modifications faites avec pyxel !**
 
-![image](https://user-images.githubusercontent.com/131471941/234773103-af8d74e5-5f70-4ff5-a943-be7727e41c13.png)
+https://user-images.githubusercontent.com/131471941/234773177-534e65c6-808a-42e8-9e9d-eaa4292bccef.png
 
 ## Demo 
-
 
 https://user-images.githubusercontent.com/131470894/234392432-969cdbd2-0002-4b1d-9394-54a8b300baf0.mp4
 
 
 
-## Caractéristiques
+## Caractéristiques![Capture d'écran 2023-04-27 100159
+
 
 ### les échecs mais à notre manière...
 
