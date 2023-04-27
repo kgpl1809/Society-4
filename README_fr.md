@@ -1,6 +1,6 @@
 # Society-4
 
-Read this document in french(README.md)
+Lisez ce document en [français](README.md)
 
 **A game similar to "chess" with some modifications made with pyxel ! **
 
