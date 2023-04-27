@@ -441,6 +441,13 @@ def start_game_draw():
     if credit:
 
         pyxel.cls(0)
+        hearts = [(1, 1), (1, 1), (2, 1), (5, 1), (1, 5), (1, 5), (5, 5), (1, 2), (1, 1), (2, -1),
+                  (-1, -5), (-1, -8), (-5, 1), (-1, 5)]
+        for heart in hearts:
+            x = (pyxel.frame_count * heart[0]) % pyxel.width
+            y = (pyxel.frame_count * heart[1]) % pyxel.height
+            pyxel.blt(x, y, 0, 216, 80, 16, 16, 0)
+            
         if show_apple and not snake_game:
             pyxel.blt(apple_x, apple_y, 0, 80, 64, 16, 16, 0)
         pyxel.rect(172, 78, 34, 6, 0)  
@@ -454,6 +461,9 @@ def start_game_draw():
         pyxel.text(100, 180, "Josh - il etait en retard", 7) 
         pyxel.text(100, 200, "Note : Il est important de savoir que ce projet\na ete realise en l'espace de 3semaines\navec au millieu bac blanc, examen, ect...\nPS : Josh etait une des difficultes rencontre pendant\nce projet mais utile quand il le fallait.", 7) 
         pyxel.text(100, 220, "\n\nAttend la pomme !!!", 7)
+
+        
+        
         
 
         text_len = len("Menu") * pyxel.FONT_WIDTH
