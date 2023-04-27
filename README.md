@@ -54,3 +54,7 @@ Quant à l'installation du module random, il suffit de remplacer dans la command
 ### Utilisation 
 
 On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancer le code.
+
+### Le lien vers le pyxel.net
+https://www.pyxelstudio.net/ps/r9t5vw7d
+
