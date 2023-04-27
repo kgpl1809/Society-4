@@ -447,20 +447,20 @@ def start_game_draw():
             x = (pyxel.frame_count * heart[0]) % pyxel.width
             y = (pyxel.frame_count * heart[1]) % pyxel.height
             pyxel.blt(x, y, 0, 216, 80, 16, 16, 0)
-            
+
         if show_apple and not snake_game:
             pyxel.blt(apple_x, apple_y, 0, 80, 64, 16, 16, 0)
-        pyxel.rect(172, 78, 34, 6, 0)  
-        pyxel.rectb(172, 78, 34, 10, 7)  
-        pyxel.text(175, 80, "CREDITS", 7) 
+        pyxel.rect(172, 28, 34, 6, 0)
+        pyxel.rectb(172, 28, 34, 10, 7)
+        pyxel.text(175, 30, "CREDITS", 7)
 
-        pyxel.text(100, 100, "Assim - le meilleur developeur (note : il a prit la decision de tout\nfaire tout seul et a eu un burnout son ego l'a sans doute rattrapee)", 7) 
-        pyxel.text(100, 120, "Raees - le developeur un peu moins bon \n(surnomme l'usine a gaz que des variables globales pas de return)", 7) 
-        pyxel.text(100, 140, "Sania - elle dessine bien ", 7) 
-        pyxel.text(100, 160, "Krish - maitrise la langue de Shakespear,\nmoins celle de Moliere", 7) 
-        pyxel.text(100, 180, "Josh - il etait en retard", 7) 
-        pyxel.text(100, 200, "Note : Il est important de savoir que ce projet\na ete realise en l'espace de 3semaines\navec au millieu bac blanc, examen, ect...\nPS : Josh etait une des difficultes rencontre pendant\nce projet mais utile quand il le fallait.", 7) 
-        pyxel.text(100, 220, "\n\nAttend la pomme !!!", 7)
+        pyxel.text(100, 70, "Assim - le meilleur developeur (note : il a prit la decision de tout\nfaire tout seul et a eu un burnout son ego l'a sans doute rattrapee)", 7)
+        pyxel.text(100, 100, "Raees - le developeur un peu moins bon \n(surnomme l'usine a gaz que des variables globales pas de return)", 7)
+        pyxel.text(100, 120, "Sania - elle dessine bien ", 7)
+        pyxel.text(100, 140, "Krish - maitrise la langue de Shakespear,\nmoins celle de Moliere", 7)
+        pyxel.text(100, 160, "Josh - il etait en retard", 7)
+        pyxel.text(100, 180, "Note : Il est important de savoir que ce projet\na ete realise en l'espace de 3semaines\navec au millieu bac blanc, examen, ect...\nPS : Josh etait une des difficultes rencontre pendant\nce projet mais utile quand il le fallait.", 7)
+        pyxel.text(100, 200, "\n\nAttend la pomme !!!", 7)
 
         
         
@@ -3128,7 +3128,10 @@ def draw() :
             pyxel.rect(256, 240, 48, 16, 8)
             pyxel.text(256 + 3, 240 + 5, 'Abandonner?', 7)
             pyxel.blt(304, 240, 0, 128, 64,16, 16, 4)
-            pyxel.text(260, 40, "Appuyer sur le bouton rouge \npour mettre le jeu sur pause \net sur le carre pour abandonner. \nLes carres gris montrent \nles endroits ou l'on peut \nutiliser une abilite \net deplacer des pieces \nchaque abilite \nfait queleque chose de \ndifferent. Aller dans aide si \nil y a un manque de \ncomprehension.\nBonne chance !", 7)
+            pyxel.text(260, 40, "Appuyer sur le bouton rouge \npour mettre le jeu sur pause \net sur le carre pour abandonner. \nAller dans aide si \nil y a un manque de \ncomprehension.", 7)
+            pyxel.text(260, 90, "Les carres gris montrent \nles endroits ou l'on peut \nutiliser une abilite \net deplacer des pieces", 7)
+            pyxel.text(260, 120, "Chaque abilite \nfait queleque chose de \ndifferent", 7)
+            pyxel.text(260, 150, "Bonne chance !", 7)
 
         else : 
             
