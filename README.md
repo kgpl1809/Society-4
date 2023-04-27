@@ -41,7 +41,7 @@ Les sprites dessinés sur Pyxel ont été faits à la main sans objet de référ
 
   - Menu interactif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne.
   - Les Easter Egg peuvent être accéder afin de  jouer à des mini-jeux.
-  - Attaper une étoile qui se balade dans un des menus ? Cliquer sur tout ce qui bouge ? Plein de choses à découvrir  !
+  - Attraper une étoile qui se balade dans un des menus ? Cliquer sur tout ce qui bouge ? Plein de choses à découvrir  !
 
 
 ### Installation
