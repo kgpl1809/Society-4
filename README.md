@@ -55,8 +55,6 @@ Quant à l'installation du module random, il suffit de remplacer dans la command
 
 On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancé le code.
 
-### Le lien vers le pyxel.net
-https://www.pyxelstudio.net/ps/r9t5vw7d
 
 
 
@@ -153,7 +151,8 @@ Lorsqu'une pièce capture un ministre quelconque, ce dernier évolue au niveau s
 
        ![image_ministre_bouclier](https://user-images.githubusercontent.com/131470894/234657200-9d33cd7e-4443-4dfa-b823-e0ba2503a94d.png)
 
-
+## Pyxelstudio.net
+https://www.pyxelstudio.net/ps/r9t5vw7d
 
 ## License de Pacman
 
