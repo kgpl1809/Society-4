@@ -1,6 +1,6 @@
 # Society-4
 
-Read this document in .[english]
+Read this document in [english](README.md)
 
 **Un jeu similaire au "échecs" avec quelques modifications faites avec pyxel !**
 
