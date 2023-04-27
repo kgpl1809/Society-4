@@ -59,7 +59,7 @@ https://www.pyxelstudio.net/ps/r9t5vw7d
 
 # 1 - The Rules
 
-Society^4 is a game similar to chess with 4 players in local. Each player has 16 pieces, including 8 Citizens, 2 Workers, 2 Soldiers, 2 Pirates, 1 Minister, 1 President. To win the game, you must be the only one to have your president alive, taking into consideration that a player can be eliminated if he doesn't play within the time limit of each turn. 
+Society^4 is a game similar to chess with 4 players in local. Each player has 16 pieces, including 8 Citizens, 2 Workers, 2 Soldiers, 2 Hackers, 1 Minister, 1 President. To win the game, you must be the only one to have your president alive, taking into consideration that a player can be eliminated if he doesn't play within the time limit of each turn. 
 
 
 
@@ -107,7 +107,7 @@ When a piece captures any minister, it evolves to the next level. You can see th
 
 
 
-  - The tomb appears on the square when a Soldier or Pirate dies. This tomb blocks the square it is on indefinitely, however one of the 4 ministers that can be chosen at the beginning of the game can revive the piece lost in battle.
+  - The tomb appears on the square when a Soldier or Hacker dies. This tomb blocks the square it is on indefinitely, however one of the 4 ministers that can be chosen at the beginning of the game can revive the piece lost in battle.
 
 
 ### Abilities
@@ -144,7 +144,7 @@ When a piece captures any minister, it evolves to the next level. You can see th
        ![image_ministre_prison](https://user-images.githubusercontent.com/131470894/234657215-620a2b33-8493-4dc7-b2ca-4a793beec197.png)
 
 
-      - Minister 3 : has the ability to reanimate a corpse left by a Pirate or a Soldier as a Worker 
+      - Minister 3 : has the ability to reanimate a corpse left by a Hacker or a Soldier as a Worker 
 
 
       - Minister 4 : gives a shield that protects the piece chosen only ally and not the President who disappears when the piece moves 1 time 
