@@ -38,8 +38,9 @@ Le module pyxel a ete utilise pour afficher toutes les pieces et icones. Le code
 
 ### Menu et Easter Egg
 
-  - Menu interractif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne
-  - Les Easter Egg peuvent etre acceder afin de  jouer a des mini-jeux pour rendre le menu plus vivant 
+  - Menu interractif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne.
+  - Les Easter Egg peuvent etre acceder afin de  jouer a des mini-jeux.
+  - Attaper une etoile qui se balade dans un des menu ? Clicker sur une pomme ? Plein de chose a découvrir  !
 
 
 ### Installation
