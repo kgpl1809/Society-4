@@ -25,7 +25,7 @@ However, we have made various modifications to the original game such as :
   - The board is a chess-like board, but with half chess boards added on each side, which forms a kind of cross
   
   
-#### Menu
+### Menu
   - Some secrets hidden in the menu, you have to find them !
 
 ### Python and Pyxel
