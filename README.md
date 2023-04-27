@@ -35,7 +35,7 @@ Pyxel etant un module utilise durant toute l'annee de NSI pour nous entrainer a 
 
 ### Affichage et Dessins sur Pyxel
 
-(sania remplie)
+
 
 ### Menu et Easter Egg
 
