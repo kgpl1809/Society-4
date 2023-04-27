@@ -51,7 +51,7 @@ Les sprites dessinés sur Pyxel ont été faits à la main sans objet de référ
 
 Quant à l'installation du module random, il suffit de remplacer dans la commande ci-dessus : "pyxel" par "random"
 
-### Utilization 
+### Utilisation 
 
 On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancé le code.
 
