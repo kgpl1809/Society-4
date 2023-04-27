@@ -54,8 +54,6 @@ As for the installation of the random module, you just have to replace in the ab
 ### Usage
 We have made the user interface quite simple to navigate in order to facilitate the accessibility of our game. So there are no additional commands to enter when the game is running. However, if it happens that our game stops working, please refresh the page you are on, or restart the code depending on how you launched the game.
 
-### The link to pyxel.net
-https://www.pyxelstudio.net/ps/r9t5vw7d
 
 # 1 - The Rules
 
@@ -154,7 +152,10 @@ When a piece captures any minister, it evolves to the next level. You can see th
 
 
        ![image_ministre_bouclier](https://user-images.githubusercontent.com/131470894/234657200-9d33cd7e-4443-4dfa-b823-e0ba2503a94d.png)
+      
 
+## Pyxelstudio.net
+https://www.pyxelstudio.net/ps/r9t5vw7d
 
 
 ## License of Pacman
