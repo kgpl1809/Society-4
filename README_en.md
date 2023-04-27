@@ -51,7 +51,8 @@ The sprites drawn on Pyxel were done by hand without any reference object or spe
 
 As for the installation of the random module, you just have to replace in the above command : "pyxel" by "random".
 
-### Use 
+### Usage
+We have made the user interface quite simple to navigate in order to facilitate the accessibility of our game. So there are no additional commands to enter when the game is running. However, if it happens that our game stops working, please refresh the page you are on, or restart the code depending on how you started the code.
 
-We have made the user interface quite simple to navigate in order to make our game more accessible. So there are no additional commands to enter in the
-
+### The link to pyxel.net
+https://www.pyxelstudio.net/ps/r9t5vw7d
