@@ -59,3 +59,107 @@ On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter 
 https://www.pyxelstudio.net/ps/r9t5vw7d
 
 
+
+# 1 - Les regles
+
+Society^4 est un jeu semblable au échecs à 4 joueurs en local. Chaque joueur possède 16 pièces, dont 8 Citoyens, 2 Ouvriers , 2 Soldats , 2 Pirates , 1 Ministre , 1 Président. Pour gagner la partie il faut être le seul à avoir son président en vie, il faut prendre en considération qu'un joueur peut être éliminé s'il ne joue pas dans le temps imparti chaque tour. 
+
+
+
+Les joueurs pourront choisir le mode qu'ils souhaitent : mode facile - 1 min par tour ; mode moyen - 30 sec par tour ; 
+mode extrême - 9 sec par tour. Contrairement au jeu d'échecs traditionnel, toutes les pièces possèdent des capacités spéciales.
+
+
+
+
+## Comment jouer ?
+
+Quand vous lancez le jeu, un menu sera affiché avec plusieurs options : "Jouer", "Paramètres", "Aide", les "Crédits" et l'option "Quitter" pour fermer le jeu. Puis dans l'Aide la description brève de chaque pièce et des règles du jeu.  Le mode de déplacement est avec la souris, et pour cela vous devez sélectionner la pièce que vous souhaitez déplacer en cliquant dessus, puis choisir une des cases disponible en fonction du mouvement de cette pièce qui sera affichée. 
+
+Et ca tourne ! 
+
+
+Faites attention... L'utilisation de la capacité de n'importe quelle pièce consomme votre tour.
+## La hiérarchie des pions
+
+Lorsqu'une pièce capture un ministre quelconque, ce dernier évolue au niveau supérieur. Vous trouverez l'ordre d'évolution dans l'image ci-dessous :
+![Hierarchie pieces](https://user-images.githubusercontent.com/131470894/233690765-9510fd53-e26f-488a-9058-b12a23243817.png)
+
+
+
+# 2 - Les pieces
+
+
+## Chaque pièce est différente 
+  - Le "Citoyen" est le pion des échecs qui peut se déplacer de deux cases dans une direction au premier tour puis se déplace d'une case, peut capturer une autre pièce en diagonale 
+
+
+  - L' "Ouvrier" est le chevalier des échecs qui se déplace en L (deux cases dans une direction, puis une case vers la gauche ou la droite) et peut capturer des pièces de cette façon 
+
+
+  - Le "Soldat" est la tour des échecs qui se déplace horizontalement et verticalement uniquement et peut capturer des pièces de cette façon. Quand cette pièce est capturée, elle laissera une tombe sur cette case, bloquant la case et pourra se faire réanimer par un des Ministres. Attention la tombe peut se faire manger par un citoyen qui deviendra alors un zombie.
+
+  - Le "Pirate" est le fou des échecs qui se déplace diagonalement uniquement et peut capturer des pièces de cette façon. Quand cette pièce est capturée, elle laissera une tombe sur cette case, bloquant la case et pourra se faire réanimer par un des Ministres. 
+
+
+  - Le "Ministre" est la reine des échecs qui peut se déplacer en diagonale, horizontale, verticale et peut capturer des pièces de cette façon 
+
+
+  - Le "Président" est le roi des échecs qui peut se déplacer d'une case dans n'importe quelle direction et peut capturer des pièces de cette façon, lorsque le Roi d'une équipe meurt celle-ci est éliminé 
+
+
+  - La tombe apparaît sur la case lors de la mort d'un Soldat ou d'un Pirate. Cette tombe bloque la case sur laquelle elle se trouve indéfiniment, cependant un des 4 ministres que l'on peut choisir au début de la partie peut ranimer la pièce perdue au combat.
+
+
+### _Les capacites_
+  - Le Citoyen : ne possède pas de capacités, se transforme en Ouvrier suite à la capture d'un Ministre
+
+
+  - L'Ouvrier : peut bloquer une case pour 4 tour, se transforme en Soldat suite à la capture d'un Ministre (4 tours de rechargement, dans un cercle de rayon de 2 cases)
+
+
+
+![image_ouvrier](https://user-images.githubusercontent.com/131470894/234656664-091257e7-96d7-45d5-bcf8-1b0dfc23407d.png)
+![image_ouvrier_capa](https://user-images.githubusercontent.com/131470894/234656675-fe9c176d-779f-4870-9316-8dc6852a5e88.png)
+
+
+
+  - Le Soldat : peut poser une mine à proximité qui dure 9 tours, qui élimine un pion qui atterrit dessus, se transforme en Pirate suite à la capture d'un Ministre (7 tours de rechargement, dans un rayon de 2 cases autour de lui)
+
+
+![image_soldat_capa](https://user-images.githubusercontent.com/131470894/234657525-1c7a633e-33f8-42eb-8111-054889eac218.png)
+
+
+  - Le Pirate : peut déplacer une pièce allie dans un rayon de 2 cases autour peu importe sa catégorie d'une façons prédéfinie, se transforme en Ministre suite à la capture d'un Ministre (12 tours de rechargement). Il peut aussi déplacer des tombes qui pourront alors capturer d'autre pièce. Attention si la tombe tue un ministre, la pièce sera réanimée mais recevra aussi son évolution.
+
+  - Le Ministre : Quand un Ministre est capturé par un autre Ministre il ameliore la capacite de ce dernier (Dure plus longtemps et moins de temps de rechargement).
+      - Ministre 1 : met le feu a une case choisi sur une durée de 3 tours 
+      
+    
+       ![image_ministre_feu](https://user-images.githubusercontent.com/131470894/234657011-23e013f3-17b7-48f6-8b9c-491e3e359134.png)
+
+
+      - Ministre 2 : pose une prison sur une pièce choisie qui dure 2 tours, tue la pièce prise si elle bouge
+
+
+       ![image_ministre_prison](https://user-images.githubusercontent.com/131470894/234657215-620a2b33-8493-4dc7-b2ca-4a793beec197.png)
+
+
+      - Ministre 3 : a la possibilité de réanimer un cadavre laissé par un Pirate ou un Soldat en Ouvrier 
+
+
+      - Ministre 4 : donne un bouclier qui protège la piece choisi seulement allié et pas le Président qui disparait quand la pièce bouge 1 fois 
+
+
+       ![image_ministre_bouclier](https://user-images.githubusercontent.com/131470894/234657200-9d33cd7e-4443-4dfa-b823-e0ba2503a94d.png)
+
+
+
+## License de Pacman
+
+
+BANDAI NAMCO Entertainment owns famous franchises and offers a variety of video games licences, targeting a wide range of customers: we have games for everyone!
+
+© 2010 - 2023 Bandai Namco Europe S.A.S
+
+
