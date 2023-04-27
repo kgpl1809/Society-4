@@ -4,7 +4,7 @@ Read this document in .[english]
 
 **Un jeu similaire au "échecs" avec quelques modifications faites avec pyxel !**
 
-![image](https://user-images.githubusercontent.com/131470894/234386560-98fbb934-0568-4f3f-88a9-e1a2158ae222.png)
+![image](https://user-images.githubusercontent.com/131471941/234773103-af8d74e5-5f70-4ff5-a943-be7727e41c13.png)
 
 ## Demo 
 
