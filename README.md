@@ -30,18 +30,18 @@ Cependant, on a apporté divers modifications au jeu originale telles que :
 
 ### Python et Pyxel
 
-Le module pyxel a ete utilise pour afficher toutes les pieces et icones. Le code est donc divise en deux grandes parties, la partie avec tout les calcules et la partie graphique avec tout l'affichage. L'utilisation des dictionaires est aussi omnipresent a travers le code pour pouvoir attribuer a chaque objet des parametres. 
-Pyxel etant un module utilise durant toute l'annee de NSI pour nous entrainer a la nuit du code. Ainsi ce projet nous a aussi permit de nous prepaper pour la Nuit Du Code. 
+Le module pyxel a été utilisé pour afficher toutes les pièces et icônes. Le code est donc divisé en deux grandes parties, la partie avec tous les calculs et la partie graphique avec tout l'affichage. L'utilisation des dictionnaires est aussi omniprésente à travers le code pour pouvoir attribuer à chaque objet des paramètres. 
+Pyxel étant un module utilisé durant toute l'année de NSI pour nous entraîner à la nuit du code. Ainsi ce projet nous a aussi permis de nous préparer pour la Nuit Du Code. 
 
 ### Affichage et Dessins sur Pyxel
 
-
+Les sprites dessinés sur Pyxel ont été faits à la main sans objet de référence, ni d'idée spécifique en tête. On a dû imaginer et s'inspirer un peu de ce qu'on imaginait quand on pensait aux pièces que l'on a dessiné. L'affichage des capacités a été assez long et difficile, comme on voulait donner un effet d'animation pour les capacités de chaque pièce. Il a fallu dessiner plusieurs fois la même image mais en modifiant son apparence et les affiches répétitivement les unes après les autres pour donner cet effet d'animation. Le nombre d'images et de sprites dessinés dépasse largement ce qu'on pensait originellement.
 
 ### Menu et Easter Egg
 
-  - Menu interractif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne.
-  - Les Easter Egg peuvent etre acceder afin de  jouer a des mini-jeux.
-  - Attaper une etoile qui se balade dans un des menu ? Clicker sur tout ce qui bouge ? Plein de chose a découvrir  !
+  - Menu interactif pour permettre à l'utilisateur de comprendre comment le jeu fonctionne.
+  - Les Easter Egg peuvent être accéder afin de  jouer à des mini-jeux.
+  - Attaper une étoile qui se balade dans un des menus ? Cliquer sur tout ce qui bouge ? Plein de choses à découvrir  !
 
 
 ### Installation
@@ -51,10 +51,11 @@ Pyxel etant un module utilise durant toute l'annee de NSI pour nous entrainer a 
 
 Quant à l'installation du module random, il suffit de remplacer dans la commande ci-dessus : "pyxel" par "random"
 
-### Utilisation 
+### Utilization 
 
-On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancer le code.
+On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter l'accessibilité à notre jeu. Il n y a donc pas de commandes additionnelles à entrer lorsque le jeu est lancé. Cependant, si il arrive à notre jeu d'arrêter de fonctionner, veuillez rafraîchir la page sur laquelle vous êtes, ou de relancer le code dépendant de comment vous avez lancé le code.
 
 ### Le lien vers le pyxel.net
 https://www.pyxelstudio.net/ps/r9t5vw7d
+
 
