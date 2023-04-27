@@ -58,4 +58,3 @@ On a rendu l'interface d'utilisateur assez simple à naviguer afin de faciliter 
 ### Le lien vers le pyxel.net
 https://www.pyxelstudio.net/ps/r9t5vw7d
 
-![image](https://user-images.githubusercontent.com/131471941/234775192-c34e557f-5ae2-4fa1-82e2-ef105ae75fd3.png)
