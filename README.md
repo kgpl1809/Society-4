@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/131470894/234392432-969cdbd2-0002-4b1d
 
 
 
-## Caractéristiques![Capture d'écran 2023-04-27 100159
+## Caractéristiques
 
 
 ### les échecs mais à notre manière...
